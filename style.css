@@ -5,6 +5,7 @@
     height: 638px;
 }
 
+
 #carouselExampleControls {
     height: 570px;
 }
@@ -57,11 +58,20 @@ nav h2 {
     background-image: url(images/background.jpg);
 }
 
-.menu{
+.titre{
     margin-top: 12%;
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
     height:80px;
     font-size:75px;
     text-decoration: underline;
+}
+.menu{
+    text-align:center;
+}
+.menu a{
+    color:black;
+}
+.menu li{
+    list-style: none;
 }
