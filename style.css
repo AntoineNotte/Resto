@@ -77,10 +77,28 @@ body {
 .linkcarte ul{
     text-align:center;
 }
-.entree{
+.menu h2{
     text-align: center;
     margin-top:7%;
 }
+.menu h3{
+    margin-left:20px;
+}
 .prix{
-    margin-left:55px;
+    display: inline-block;
+    right: 0;
+    position: absolute;
+    margin-right:270px;
+}
+
+.menu li {
+    display: flex;
+    margin-left:10px;
+    margin-bottom:1%;
+}
+.menu{
+    border-style:solid;
+    width:800px;
+    margin-right:auto;
+    margin-left:auto;
 }
