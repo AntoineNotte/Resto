@@ -24,8 +24,10 @@
 </head>
 <header>
      <!--Navigation-->
-     <nav class="navbar justify-content-end navbar-dark bg-dark">
+     <div>
+     <nav class="navbar justify-content navbar-dark bg-dark">
             <h2>Au <i class="fab fa-pinterest-p"></i>'tit Bout</h2>
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="nav">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Accueil</a>
@@ -44,8 +46,10 @@
                 </li>
             </ul>
         </nav>
+        </div>
+</header>
     <!--Carousel-->
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="images/interrieur.jpg" class="d-block w-100" alt="...">
@@ -67,10 +71,9 @@
         </a>
     </div>
    
-</header>
 
 <body>
-    <div class="content">
+    <div class="content col-12">
     <div class="container">
                 <div class="jumbotron">
                     <h1 class="display-4">Bienvenue dans notre restaurant</h1>
@@ -78,7 +81,7 @@
                         attention to
                         featured content or information.</p>
                     <hr class="my-4">
-                    <a class="btn btn-dark btn-lg" href="menu.html" role="button">Menu</a>
+                    <a class="btn btn-dark btn-lg offset-5 " href="menu.html" role="button">Menu</a>
                     <a class="btn btn-dark btn-lg" href="contact.html" role="button">Contact</a>
                 </div>
             </div>
@@ -86,22 +89,31 @@
     </div>
 </div>
 <div class="row">
-<div class="col card border-dark mb-3" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
+<div class="col card border-dark offset-2 visible " style="max-width: 18rem;">
+        <div class="card-header"><h5>Des produits frais et de saison</h5></div>
         <div class="card-body text-dark">
-          <h5 class="card-title">Dark card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <img class="col-12" src="images/sain.jpg">
+          <p class="card-text">Au pt'it bou privilégie les repas à base de produits frais, biologiques, fermiers, artisanaux et de saison. Chaque jour, le restaurant propose un nouveau plat local.</p>
         </div>
       </div>
-      <div class="col  card border-dark mb-3" style="max-width: 18rem;">
-            <div class="card-header">Header</div>
+          <div class="col  card border-dark   disparait" style="max-width: 18rem;">
+            <div class="card-header"><h5>Respectueux de l'environnement</h5></div>
             <div class="card-body text-dark">
-              <h5 class="card-title">Dark card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <img class="col-12" src="images/cerise.jpeg">
+              <p class="card-text">Au p'tit bou s'approvisionne chez différents producteurs et éleveurs belges en fonction de leur approche respectueuse de l’environnement.</p>
             </div>
           </div>
+          <div class="col  card border-dark disparait" style="max-width: 18rem;">
+            <div class="card-header"><h5>Respectueux de l'environnement</h5></div>
+            <img class="col-12" src="images/cocktail.jpg">    
+                <div class="card-body text-dark">
+                  <p class="card-text">Au p'tit bou s'approvisionne chez différents producteurs et éleveurs belges en fonction de leur approche respectueuse de l’environnement.</p>
+                </div>
+              </div>
           </div>
+          
 </body>
 <footer>
+    <div class="bg-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem vel distinctio accusantium optio deleniti quia, esse nemo, dolore, inventore deserunt nulla impedit enim et in quaerat. Assumenda consequuntur tenetur dolorum.</div>
 </footer>
 </html>
