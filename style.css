@@ -99,6 +99,9 @@ a{
   margin-bottom: 5%;
   color:black;
 }
+footer p{
+  display:none;
+}
 .menu h3{
   font-family: 'Permanent Marker', cursive;
 }
